@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.container-1{
+    font-size: 80px;
+    font-weight: bold;
+    transition: ease 0.1s;
+}
+
+.container-2{
+    font-size: 30px;
+    font-weight: bold;
+    transition: ease 0.1s;
+}
+
+.glow {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(199, 201, 80), 0 0 20px rgb(221, 216, 142), 0 0 30px #f87070, 0 0 40px #ff5252, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+.container-fluid{
+  color: #ffffff;
+}
+
+
+.row{
+  background-color: rgb(97, 97, 97);
+}
+
+.col{
+  margin: 10px;
+  background-color: rgb(131, 112, 88);
+}
+
